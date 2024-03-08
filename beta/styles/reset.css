@@ -1,0 +1,102 @@
+.navbar .navbar-brand {
+    margin-top: 3px !important;
+    padding: 4px 15px !important;
+  }
+.navbar-brand>img {
+    width: 75px;
+  }
+.navbar-default.navbar-transparent{
+    background: transparent;
+    border-bottom: none;
+    padding-top: 15px;
+  }
+.landing-page .navbar .navbar-brand{
+  background: none;
+}
+.navbar-default.navbar-transparent .navbar-brand>img {
+    width: 80px;
+}
+.navbar-default.navbar-transparent .navbar-nav > li, .navbar-default.navbar-transparent .navbar-nav > li > a{ 
+}
+.landing-page .navbar-nav > li, .landing-page .navbar-nav > li > a{
+    height: 40px;
+}
+.navbar-default.navbar-transparent .navbar-nav > li > a {
+    font-size: 14px;
+    font-weight: 600;
+   padding: 11px 17px;
+   /*color: #fff; */
+}
+/*
+.navbar-default .navbar-nav.navbar-acc > li.active a{
+  background-color: #3498db;
+    color: #fff;
+    border-radius: 22px;
+    height: 36px;    
+    padding: 7px 28px;
+    margin-top: 7px
+
+  }
+  */
+ 
+
+body.landex {
+    background: url(../images/bg3.jpg) 50% 0 no-repeat;
+    /*padding-top: 100px; */
+
+        background-size: cover, auto;
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    background-attachment: fixed;
+
+}
+body.landex .screensection {
+background: rgba(0,0,0,0.1);
+    /*background-image: linear-gradient(to right, transparent, rgba(0,0,0,0.1));*/
+
+}
+
+.landing-page .heading{
+  /*text-align: center; */
+  padding-top: 50px;
+    }
+   .landing-page .heading h1{
+    line-height: 56px;
+    font-size: 46px;
+  } 
+  .landing-page p {
+    font-weight: 600;
+    font-size: 16px;
+}
+.landing-page .heading h1, .landing-page .heading span, .landing-page .heading p {
+color: #fff;
+}
+
+
+.landing-page h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+.landing-page section p{
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 13px;
+  }
+
+  .landing-page.pricing-page header{
+    height:300px !important;
+  }
+
+  .contact-container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 6%;
+}
+
+
+  .form-group{
+        padding: 0px 10px;
+  }
+   .form-control{
+        border-radius: 0px;
+  }
